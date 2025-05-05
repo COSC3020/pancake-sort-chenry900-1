@@ -30,6 +30,7 @@ number of comparisons of pancakes? What is it in terms of the number of flips?
 Add your answer to this markdown file.
 
 For each time it goes through the loop to find the biggest number the outer loop will go through each number in the array and the inner loop will go through n-1 times so you end up with O(n +(n-1) +(n-2)... + 1) and that can be simplified to O(n^2). Once it finds the biggest number it calls the flip function it will copy the array into another array then copy it back in reverse order so the run time will be at worst O(n) So together it runs at O(n^2) + O(n). So the time complexity of the function is O(n^2).
+The number of comparisons is O(n^2). The number of flips is O(n).
 
 
 code used from my last semester submission
